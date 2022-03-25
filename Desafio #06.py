@@ -6,4 +6,4 @@ d = n * 2
 t = n * 3
 r = math.pow(n, 1/2)
 
-print('Informações sobre ', n, ', abaixo: \n Dobro = {} \n Triplo = {} \n Raiz Quadrada = {}'.format(d, t, r))
+print('Informações sobre ', n, ', abaixo: \n Dobro = {} \n Triplo = {} \n Raiz Quadrada = {:.3f}'.format(d, t, r))
